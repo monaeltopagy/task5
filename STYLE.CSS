@@ -1,0 +1,55 @@
+*{
+    box-sizing:border-box ;
+    text-align: center;
+}
+.header{
+    display: block;
+    position: relative;
+    background-color: gray;
+    height: 50px;
+    word-spacing: 20px ;
+}
+#logo{
+    position: absolute;
+    display: inline;
+    background-color: black;
+    color: white;
+    margin: 5px 10px;
+    padding: 10px;
+    left: 0 ;
+}
+#text{
+    position: absolute;
+    margin: 10px 20px;
+    right: 0 ;
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50;
+    text-transform: capitalize;
+    padding: 10%;
+    margin: 0;
+    background-color: rgb(226, 121, 144);
+    color: white;
+
+}
+.p1{
+    
+        background-image: url("imag/mmm.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 20px;
+        padding: 70px 10%;
+        margin: 0%;
+        color: white;
+    
+}
+img{
+   width: 300px;
+   margin: 30px;   
+}
+p{
+    font-size: 20px;
+    padding: 10px 2px;
+}
+
